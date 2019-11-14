@@ -7,6 +7,7 @@ Website for showing off one of the methods to creating a diy-stylus.
 ### Languages Used
 - HTML
 - CSS
+- Javascript
 
 ### To-Do List
 - [ ] Create homepage with animations
