@@ -1,0 +1,227 @@
+/* ENTIRE PAGE */
+* {
+    background-color: #0c0c0c;
+}
+
+/* FONT by: Google Fonts */
+@font-face {
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Oxygen Regular'), local('Oxygen-Regular'), url(https://fonts.gstatic.com/s/oxygen/v9/2sDfZG1Wl4LcnbuKjk0m.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+/* ENTIRE PAGE */
+body {
+    margin: 0;
+}
+
+/* PAGE CONTENT */
+.container{
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* NAV */
+header {
+    background-color: #d4d4dc;
+    padding-top: 10px;
+}
+
+/* NAV MOVING WITH SCROLL */
+.fixed {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.nav-placeholder {
+    margin: auto;
+}
+
+nav {
+    z-index: 500px;
+    width: 100%;
+    height: 45px;
+    box-shadow: 0px 5px 0px #dedede;
+}
+
+nav ul {
+    margin: 0;
+    background-color: #d4d4dc;
+    padding: 0;
+    padding-bottom: 20px;
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    background-color: #d4d4dc;
+    margin-left: 70px;
+    vertical-align: middle;
+}
+
+nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #d4d4dc;
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Oxygen', sans-serif;
+}
+
+/* HOVER ANIMATION */
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+  transition: all .5s;
+}
+
+nav ul li a:hover {
+  color: #000;
+}
+
+nav ul li a{
+  position: relative;
+}
+
+nav ul li a:after{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: #000;
+  height: 1px;
+}
+nav ul li a:hover:after {
+  width: 100%;
+}
+
+/* LOGO */
+.logo {
+    display: block;
+    margin: 30px auto 0 auto;
+    padding-top: 75px;
+}
+
+/* TITLE */
+.container h1{
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Oxygen', sans-serif;
+    margin-top: 50px;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+/* QUOTE */
+.container p{
+    color: #ffffff;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 16px;
+    margin-top: -15px;
+    margin-bottom: 220px;
+}
+
+/* GITHUB */
+.git{
+    background-color: #ffffff;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    padding: 5px 5px;
+    box-shadow: 0 0 6px #000000;
+    color: #ffffff;
+    bottom: 0;
+}
+
+.git a{
+    background-color: #ffffff;
+    text-decoration: none;
+}
+
+.github{
+    background-color: #ffffff;
+}
+
+/* PHOTO GALLERY CONTENT */
+.gallery{
+    background-color: #ffffff;
+}
+
+.materials-gallery{
+    display: inline-block;
+    margin: 80px;
+    width: 180px;
+    background-color: #fff;
+    margin-left: 110px;
+    opacity: 0;
+}
+
+/* MATERIALS */
+.gallery h2{
+    background-color: #fff;
+    color: #000;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 35px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+
+/* MATERIALS IMAGES */
+.materials-gallery img{
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    margin-top: -45px;
+}
+
+/* MATERIALS DESCRIPTIONS */
+.materials-gallery .desc{
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    color: #000;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 20px;
+}
+
+/* STEP-BY-STEP GUIDE */
+.howto-steps{
+    color: #fff;
+    padding: 50px;
+    padding-bottom: 95px;
+    opacity: 0;
+}
+
+.howto-steps h2{
+    margin-top: -35px;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 35px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.howto-steps h3{
+    color: #ffffff;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.howto-steps p{
+    color: #ffffff;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 18px;
+}
