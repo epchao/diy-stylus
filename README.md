@@ -1,18 +1,24 @@
 # DIY Stylus Website
-Website for showing off one of the methods to creating a diy-stylus.
+Website to introduce a method to create a DIY Stylus.
 
 ## Progress Bar
-[#________________________] 10%
+[##########] - 100%
 
 ### Languages Used
 - HTML
 - CSS
 - Javascript
 
-### To-Do List
-- [ ] Create homepage with animations
-- [ ] Fix color scheme
-- [ ] Work on videos and guides page
-- [ ] Add a footer with github linked
+### Length of Project
+- October 29 - December 17
+
+### What I've learned to do
+- Positioning elements
+- Adding images and videos into a website
+- Javascript scroll animation
+- Navigation bar magic
+- Linking github
+- Image/Video gallery
 
 ### License
+This project is under the MIT License.
