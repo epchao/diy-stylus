@@ -10,7 +10,7 @@ Website to introduce a method to create a DIY Stylus.
 - Javascript
 
 ### Length of Project
-- October 29 - December 17
+- October 29 2019 - December 17 2019
 
 ### What I've learned to do
 - Positioning elements
